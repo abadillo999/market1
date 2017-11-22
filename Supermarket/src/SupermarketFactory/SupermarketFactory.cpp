@@ -9,7 +9,8 @@
 #include "SpanishSupermarketFactory.h"
 #include "PortugueseSupermarketFactory.h"
 
-namespace SupermarketFactory{
+
+
 SupermarketFactory::SupermarketFactory() {
 	// TODO Auto-generated constructor stub
 
@@ -44,5 +45,5 @@ int SupermarketFactory::getCountryCode() {
 
 
 
-}
+
  /* namespace SupermarketFactory */

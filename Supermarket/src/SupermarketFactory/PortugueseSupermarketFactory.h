@@ -10,7 +10,6 @@
 #include "../CashRegister/CashRegister.h"
 #include "../Ticket/Ticket.h"
 #include "SupermarketFactory.h"
-namespace SupermarketFactory{
 class PortugueseSupermarketFactory: public SupermarketFactory {
 
 public:
@@ -20,6 +19,6 @@ public:
 	Ticket* cloneTicket();
 
 };
-}
+
 
 #endif /* SUPERMARKETFACTORY_PORTUGUESESUPERMARKETFACTORY_H_ */

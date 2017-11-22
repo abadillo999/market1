@@ -10,7 +10,7 @@
 #include "../CashRegister/CashRegister.h"
 #include "../Ticket/Ticket.h"
 #include "SupermarketFactory.h"
-namespace SupermarketFactory{
+
 class SpanishSupermarketFactory: public SupermarketFactory{
 private:
  static CashRegister* cashRegister;
@@ -22,6 +22,6 @@ public:
 
 };
 
-} /* namespace SupermarketFactory */
+ /* namespace SupermarketFactory */
 
 #endif /* SUPERMARKETFACTORY_SPANISHSUPERMARKETFACTORY_H_ */

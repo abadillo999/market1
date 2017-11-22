@@ -7,7 +7,6 @@
 
 #include "SpanishSupermarketFactory.h"
 
-namespace SupermarketFactory{
 SpanishSupermarketFactory::SpanishSupermarketFactory() {
 	// TODO Auto-generated constructor stub
 
@@ -25,6 +24,6 @@ CashRegister* SpanishSupermarketFactory::cloneCashRegister() const {
 }
 Ticket* SpanishSupermarketFactory::cloneTicket(){
 	return 0 ;//new Ticket(spanishHeader, spanishFooter);
-};
 }
+
  /* namespace SupermarketFactory */

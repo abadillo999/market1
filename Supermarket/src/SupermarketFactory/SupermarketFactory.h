@@ -4,22 +4,21 @@
 #include "../CashRegister/CashRegister.h"
 #include "../Ticket/Ticket.h"
 
-namespace SupermarketFactory{
 
 class SupermarketFactory {
 protected:
+	SupermarketFactory();
+    static SupermarketFactory* supermarketFactory;
 	CashRegister* cashRegister;
-    SupermarketFactory* supermarketFactory = 0;
-    int getCountryCode();
+    static int getCountryCode();
 
 public:
-	SupermarketFactory();
-	SupermarketFactory* instance();
+	static SupermarketFactory* instance();
 	CashRegister* cloneCashRegister();
 	Ticket* cloneTicket();
 
 };
-}
+
  /* namespace SupermarketFactory */
 #endif /* SUPERMARKETFACTORY_SUPERMARKETFACTORY_H_ */
 

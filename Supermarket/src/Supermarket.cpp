@@ -4,7 +4,7 @@
 #include "SupermarketFactory/SupermarketFactory.h"
 
 CashRegister* cashRegister;
-SupermarketFactory::SupermarketFactory* superMarketFactory;
+SupermarketFactory* superMarketFactory;
 
 void Supermarket(){
 	superMarketFactory->instance();

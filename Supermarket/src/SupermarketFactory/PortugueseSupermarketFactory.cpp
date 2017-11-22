@@ -1,7 +1,7 @@
 
 #include "PortugueseSupermarketFactory.h"
 
-namespace SupermarketFactory{
+
 PortugueseSupermarketFactory::PortugueseSupermarketFactory() {
 
 
@@ -21,4 +21,4 @@ Ticket* PortugueseSupermarketFactory::cloneTicket() {
 	return 0 ; //new Ticket(portugueseHeader, portugueseFooter);
 }
 
-}
+
